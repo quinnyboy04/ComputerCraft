@@ -1,0 +1,10 @@
+m = peripheral.find("monitor")
+
+m.setTextScale(3)
+
+m.setCursorPos(1,1)
+m.write("I Love:")
+
+m.setTextScale(2)
+m.setCursorPos(1,4)
+m.write("Kayn & Co!")
