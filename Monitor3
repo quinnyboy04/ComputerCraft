@@ -1,0 +1,9 @@
+m = peripheral.find("monitor")
+
+m.setTextScale(2)
+m.setTextColour(512)
+m.setCursorPos(11,1)
+m.write("I Love")
+m.setTextColour(2)
+m.setCursorPos(9,4)
+m.write("Kayn & Co!")
